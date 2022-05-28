@@ -1,0 +1,52 @@
+.caja1,
+.caja2,
+.caja7,
+.caja8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+}
+.contain2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f5f0ed;
+  color: #241d1b;
+  width: 100%;
+  height: auto;
+  padding: 6rem 0 2rem 0;
+}
+.caja3,
+.caja4,
+.caja5,
+.caja6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain2 div {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.contain2 .caja-img {
+    width: 100%;
+}
+.contain2 .caja-img img {
+  width: 12rem;
+  padding-bottom: 0;
+}
+.contain2 .caja-contenido {
+  width: 100%;
+  text-align: left;
+  padding: 0 2rem 4rem;
+}
+.contain2 h3 {
+  text-align: left;
+}
+.contain2 p {
+   text-align: left;
+    margin: 0;
+}

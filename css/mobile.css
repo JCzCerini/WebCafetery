@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans";
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3.4rem;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  border: .1rem solid white;
+  margin: 2rem 0;
+}
+/* header y nav finalizados, queda agragar de manera responsive el boton */
+header {
+  background-image: url(../Img/Fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+} 
+nav {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-menu-burger {
+  width: 70rem;
+}
+nav .nav-menu-burger ul {
+  height: 10.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .nav-logo {
+  display: flex;
+  width: 20rem;
+  height: 10.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 2rem 0;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+nav .nav-menu li {
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-menu li:hover {
+  cursor: pointer;
+  background-color: #ded6c0;
+  color: #d03b40;
+  border: .2rem solid #d03b40;
+  border-radius: 2rem;
+}
+nav .nav-menu li:nth-child(1) {
+  width: 11rem;
+}
+nav .nav-menu li:nth-child(2) {
+  width: 11.5rem;
+}
+nav .nav-menu li:nth-child(3) {
+  width: 8rem;
+}
+nav .nav-menu li:nth-child(4) {
+  width: 9rem;
+}
+nav .nav-menu li:nth-child(5) {
+  width: 11rem;
+}
+/* Agregar el boton menu con JS */
+/* .menu-burger {
+  border: 0.2rem solid #d03b40;
+  padding: 0 0.7rem;
+  color: #ded6c0;
+  background-color: #d03b40;
+  text-align: center;
+  font-size: 4rem;
+}
+.menu-burger:hover {
+  cursor: pointer;
+  background-color: #ded6c0;
+  color: #d03b40;
+} */
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+/* header y nav finalizados, queda agragar de manera responsive el boton */
+.contain1, .contain3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 40rem
+}
+.caja1 {
+  background-color: #d03b40;
+  color: #ded6c0;
+}
+.caja2 {
+  background-color: #ded6c0;
+  color: #d03b40;
+}
+.caja1,
+.caja2,
+.caja7,
+.caja8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 40rem;
+  padding: 0 4rem;
+}
+.desayuno {
+  background-image: url(../Img/Fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 600px;
+}
+.desayuno {
+  padding-top: 150px;
+}
+.desayuno h1 {
+  margin: 20px 0;
+}
+.desayuno p {
+  margin: 40px 20px 0;
+}
+.btn-desayuno {
+  width: 320px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: transparent;
+  color: #fff;
+  border: 4px solid #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.btn-desayuno:hover {
+  cursor: pointer;
+  width: 320px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #fff;
+  color: #241d1b;
+  border: 4px solid #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.contain2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f5f0ed;
+  color: #241d1b;
+  width: 100%;
+  height: auto;
+  padding: 6rem 0 2rem 0;
+}
+.caja3,
+.caja4,
+.caja5,
+.caja6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain2 div {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.contain2 .caja-img {
+    width: 100%;
+}
+.contain2 .caja-img img {
+  width: 12rem;
+  padding-bottom: 0;
+}
+.contain2 .caja-contenido {
+  width: 100%;
+  text-align: left;
+  padding: 0 2rem 4rem;
+}
+.contain2 h3 {
+  text-align: left;
+}
+.contain2 p {
+   text-align: left;
+    margin: 0;
+}
+.caja7 {
+  background-color: #ded6c0;
+  color: #d03b40;
+  min-height: 400px;
+}
+.caja7 a {
+  text-decoration: none;
+  color: #d03b40;
+  font-weight: bold;
+}
+.caja8 {
+  background-color: #d03b40;
+  color: #ded6c0;
+  min-height: 400px;
+}
+.caja8 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ded6c0;
+}
+
+footer {
+  width: 100%;
+  height: 20rem;
+  background-color: #241d1b;
+  color: #fff;
+}
+
+footer p {
+  padding: 90px 0 0 20px;
+  margin: 0;
+  text-align: left;
+}

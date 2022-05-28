@@ -1,0 +1,19 @@
+.caja1,
+.caja2,
+.caja7,
+.caja8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.contain2 .caja-img {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem
+}
+.contain2 .caja-contenido {
+    width: 75%;
+}

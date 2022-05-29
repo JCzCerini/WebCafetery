@@ -50,16 +50,16 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav .nav-menu-burger {
+.nav-menu-burger {
   width: 70rem;
 }
-nav .nav-menu-burger ul {
+.nav-menu-burger ul {
   height: 10.5rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-nav .nav-logo {
+.nav-logo {
   display: flex;
   width: 20rem;
   height: 10.5rem;
@@ -68,23 +68,26 @@ nav .nav-logo {
   padding: 0 0 2rem 0;
 }
 .nav-menu {
-  display: flex;
   list-style: none;
 }
-nav .nav-menu li {
+.nav-menu li {
+  width: 11rem;
+}
+.nav-menu li a {
   color: #eee;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
-.nav-menu li:hover {
+.nav-menu li a:hover {
   cursor: pointer;
   background-color: #ded6c0;
   color: #d03b40;
   border: .2rem solid #d03b40;
   border-radius: 2rem;
+  padding: 0 0.5rem;
 }
-nav .nav-menu li:nth-child(1) {
+/* nav .nav-menu li:nth-child(1) {
   width: 11rem;
 }
 nav .nav-menu li:nth-child(2) {
@@ -98,7 +101,7 @@ nav .nav-menu li:nth-child(4) {
 }
 nav .nav-menu li:nth-child(5) {
   width: 11rem;
-}
+} */
 /* Agregar el boton menu con JS */
 /* .menu-burger {
   border: 0.2rem solid #d03b40;

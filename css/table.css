@@ -1,52 +1,53 @@
-.caja1,
-.caja2,
-.caja7,
-.caja8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+:root {
+    --white: #f5f0ed;
+    --red: #d03b40;
+    --beige: #ded6c0;
+    --grey: #241d1b;
+    --sm: 2.4rem;
+    --md: 2.8rem;
+    --lg: 3.2rem;
+}
+.cafe-info-container,
+.cafe-contact-section {
     width: 100%;
-    height: 40rem;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    text-align: center;
 }
-.contain2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background-color: #f5f0ed;
-  color: #241d1b;
-  width: 100%;
-  height: auto;
-  padding: 6rem 0 2rem 0;
+.cafe-breakfast-container a {
+    width: 350px;
 }
-.caja3,
-.caja4,
-.caja5,
-.caja6 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.contain2 div {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-.contain2 .caja-img {
+.cafe-cards-container {
     width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 40px 0;
+    gap: 10px;
 }
-.contain2 .caja-img img {
-  width: 12rem;
-  padding-bottom: 0;
+.card-presentation {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-rows: 90px 34px auto;
+    gap: 10px;
+    color: var(--grey);
 }
-.contain2 .caja-contenido {
-  width: 100%;
-  text-align: left;
-  padding: 0 2rem 4rem;
+.card-presentation img {
+    width: 90px;
 }
-.contain2 h3 {
-  text-align: left;
+.cafe-breakfast-container {
+    grid-template-rows: 80px auto 100px 100px;
 }
-.contain2 p {
-   text-align: left;
-    margin: 0;
+.cafe-breakfast-container a {
+    width: 350px;
+}
+.nav-cafe--presentation {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
 }

@@ -67,37 +67,33 @@
 }
 .cafe-cards-container {
     width: 100%;
-    height: 750px;
+    height: 650px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     place-items: center;
-    padding: 40px 0;
+    padding: 60px 0;
     gap: 0;
 }
 .card-presentation {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-areas: "img title"
-        "img paragraph";
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, auto);
     color: var(--grey);
-    gap: 10px;
-    grid-template-rows: auto 175px;
-    grid-template-columns: 140px 350px;
     padding: 0;
+    gap: 0;
 }
 .card-presentation img {
     width: 140px;
-    grid-area: img;
-    align-self: baseline;
+    object-fit: cover;
 }
 .card-presentation h3 {
     font-size: var(--sm);
-    grid-area: title;
 }
 .card-presentation p {
-    grid-area: paragraph;
+    grid-area: 2 / -2 / 2 / -1;
 }
 .cafe-info-container, .cafe-contact-section {
     width: 100%;

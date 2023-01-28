@@ -24,7 +24,7 @@ body {
     width: 100%;
     min-width: 320px;
     height: 600px;
-    background-image: url(/Img/Fondo1.jpg);
+    background-image: url(../img/fondo1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@ body {
     width: 100%;
     min-width: 320px;
     height: 600px;
-    background-image: url(/Img/Fondo2.jpg);
+    background-image: url(../img/fondo2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

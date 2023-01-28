@@ -32,7 +32,7 @@
     height: auto;
     max-width: 500px;
     display: grid;
-    grid-template-rows: 90px 34px auto;
+    grid-template-rows: repeat(3, auto);
     gap: 10px;
     color: var(--grey);
 }
